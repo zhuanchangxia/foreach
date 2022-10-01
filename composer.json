@@ -1,0 +1,20 @@
+{
+    "require": {
+        "noahbuscher/macaw": "dev-master",
+        "monolog/monolog": "^2.8",
+        "twig/twig": "^3.4",
+        "catfan/medoo": "^2.1"
+    },
+    "autoload":{
+    	"psr-4":{
+    		"controllers\\":"app/controllers/",
+    		"model\\":"app/model/"
+    	},
+    	"files":[
+            "app/helpers.php"
+    	]
+    		
+    	
+
+    }
+}
